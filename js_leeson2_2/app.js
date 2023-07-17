@@ -107,7 +107,6 @@ for (var key in human) {
 var arr = ['a','b','c','d','e']
 arr.reverse()
 console.log(arr)
-
 arr.push ('f')
 console.log(arr)
 arr.unshift('p')
