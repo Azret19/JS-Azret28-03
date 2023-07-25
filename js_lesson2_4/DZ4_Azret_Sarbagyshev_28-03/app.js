@@ -9,12 +9,17 @@ button.addEventListener('click',  () => {
 var output = document.querySelector('.Output')
 var red = document.querySelector('.Red')
 var green = document.querySelector('.Green')
+var yellow = document.querySelector('.Yellow')
 
 trafficL = prompt('Output trafficLight')
 switch (trafficL.toLowerCase()) {
   case 'red':
     console.dir(document.body.style.backgroundColor = 'red')
     red.innerHTML = 'STOP!'
+    break
+  case 'yellow':
+    console.dir(document.body.style.backgroundColor = 'yellow')
+    yellow.innerHTML = 'GET READY!'
     break
   case 'green':
     console.dir(document.body.style.backgroundColor = 'green')

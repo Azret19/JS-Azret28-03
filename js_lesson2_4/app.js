@@ -40,7 +40,7 @@
 //     console.log()
 // })
 
-//DOM
+//взаимодействие с DOM
 //class
 console.dir(document.body.style.backgroundColor = 'silver')
 var text = document.getElementsByClassName('text')
