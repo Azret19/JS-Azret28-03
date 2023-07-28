@@ -18,10 +18,12 @@ const books = [
 const [...others] = books //b1, b2, b3, b4, b5, b6, b7, b8,
 console.log(others)
 
+//==================
+
 const books1 = () => {
     for (let i = 0; i < books.length; i++) {
         if(books[i][2] === 'у' ||books[i][15] === 'у' ||books[i][0] === 'У'){
-            console.log(` books with letter у - ${books[i]} `)
+           console.log(` books with letter 'у' - ${books[i]} `)
         }else{
             console.log(`other books - ${books[i]}`)
         }
@@ -29,16 +31,3 @@ const books1 = () => {
 }
 books1(books)
 
-
-//==================
-
-// const books1 = () => {
-//     for (let i = 0; i < books.length; i++) {
-//         if(books[i][2] === 'у' ||books[i][15] === 'у' ||books[i][0] === 'У'){
-//             console.log(` books with letter у - ${books[i]} `)
-//         }else{
-//             console.log(`other books - ${books[i]}`)
-//         }
-//     }
-// }
-// books1(books)
