@@ -58,7 +58,6 @@ const createTodo = () => {
         editText === '' ? alert('нельзя менять на пустоту'): text.innerHTML = editText
     }
 
-
    text.onclick =()=>{
         text.classList.toggle('h3_text')
     }
