@@ -33,7 +33,7 @@ body {
     min-height: 150px;
     margin: 20px;
     list-style: none;
-    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     background-color: #f0f2f5;
 }
@@ -79,6 +79,6 @@ body {
     display: none;
 }
 
-/*.hovered{*/
-/*    background-color: silver;*/
-/*}*/
+.hovered{
+    background-color: silver;
+}
